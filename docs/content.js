@@ -1,6 +1,6 @@
 // content.js — inject "แปล" button เมื่อ user เลือกข้อความบนหน้าเว็บ
 
-const API_URL = "http://localhost:5000/translate";
+const API_URL = "https://thai-neologism-translator-demo.onrender.com/translate";
 
 let tooltip = null;
 

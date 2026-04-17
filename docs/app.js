@@ -1,4 +1,4 @@
- const API = "http://localhost:5000/translate";
+ const API = "https://thai-neologism-translator-demo.onrender.com/translate";
 
     document.getElementById("btn-translate").addEventListener("click", async () => {
       const text = document.getElementById("input").value.trim();
