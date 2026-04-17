@@ -1,0 +1,5 @@
+pythainlp>=4.0.0
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.12.2
+flask>=3.0.0
+flask-cors>=4.0.0
