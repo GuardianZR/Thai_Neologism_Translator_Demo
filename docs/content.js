@@ -104,7 +104,7 @@ const handleSelection = debounce(async (e) => {
     greeting:  "ทักทาย",
     command:   "คำสั่ง",
     statement: "บอกเล่า",
-  }[result.intent] || result.intent;
+  }[result.intent] || result.intent;  
 
   showTooltip(e.clientX, e.clientY, `
     <div style="margin-bottom:4px;font-size:11px;opacity:0.6;">ต้นฉบับ: ${result.input}</div>
